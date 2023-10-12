@@ -8,6 +8,7 @@ import androidx.room.RoomDatabase
 @Database(entities = [Convidado::class], version = 1)
 abstract class AppDatabase: RoomDatabase(){
 
+
     companion object{
         val DATABASE_NAME = "convidados"
         private lateinit var INSTANCE: AppDatabase
